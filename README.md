@@ -31,7 +31,11 @@ Refer to the guides on [Routing](https://docs.layer0.co/guides/routingg) and [Ca
 
 You should be able to run your project:
 ```
-layer0 run start
+layer0 run
+```
+or 
+```
+layer0 dev
 ```
 
 Caching is turned off during development. This is done to ensure that developers don't see stale responses after making changes to their code or other upstream APIs. If you want to use cacheing function in development run your server with following command:
