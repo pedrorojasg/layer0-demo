@@ -59,5 +59,4 @@ export default async function transform(response) {
   response.body = $.html()
     .replace(/(https:)?\/\/www\.slumberland\.com/g, '')
     .replace(/(https:)?\/\/c\.zmags\.com/g, '')
-
-}
+  }

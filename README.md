@@ -29,13 +29,9 @@ Next we need to configure the caching in our newly created project. To do so, ad
 
 Refer to the guides on [Routing](https://docs.layer0.co/guides/routingg) and [Caching](https://docs.layer0.co/guides/caching) for the full syntax to use in your *routes.js* file.
 
-You should be able to run your project:
+You should be able to run your project using:
 ```
-layer0 run
-```
-or 
-```
-layer0 dev
+npm start
 ```
 
 Caching is turned off during development. This is done to ensure that developers don't see stale responses after making changes to their code or other upstream APIs. If you want to use cacheing function in development run your server with following command:
