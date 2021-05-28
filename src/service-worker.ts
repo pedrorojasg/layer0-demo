@@ -33,13 +33,6 @@ new Prefetcher({
         attribute: 'src',
         as: 'image',
         callback: deepFetchPDPImages
-      },
-      { /* PDP image */
-        selector: '.lazyloaded',
-        maxMatches: 1,
-        attribute: 'src',
-        as: 'image',
-        callback: deepFetchPDPImages
       }
     ]),
   ],
