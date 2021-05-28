@@ -21,9 +21,11 @@ I would like to do more tests to could optimize the configuration.
 * My demo with Layer0: https://www.webpagetest.org/result/210528_BiDcFF_b8e2aef7df123513d841b788320bd207/
 * Original site: https://www.webpagetest.org/result/210528_AiDcEF_0471a089cfbfbe5b80a257de8b6e0693/
 
-My demo using the power of Layer0 has great performance improvements web vitals in Largest and Total Blocking Time.
+My demo using the power of Layer0 has great performance improvements web vitals in Largest Contentful Paint and Total Blocking Time.
 
-There were improvements in Security Score and other important perfomance indicators: Contentful Paint, First Byte, Start Render, First Contentful Paint, Speed Index and Fully loaded time.
+There were improvements in Security Score and other important perfomance indicators: First Byte, Start Render, First Contentful Paint, Speed Index and Fully loaded time.
+
+The Largest Contentful Paint decrease from 9.085s to 1.825s (almost 80% time reduction).
 
 ## Feedback to Layer0:
 I had fun with this project, was great understand how Layer 0 works. The docs are self explanatory.
@@ -33,7 +35,7 @@ There are some broken links in the original repo README:
 
 I found the challenge great to gain a first look how Layer0 works and their capabilities.
 
-It confuses me a bit that there were two routes.ts files, one in the root and one inside the src folder. It would be good to explain this better in the docs and / or in the challenge
+It confuses me a bit that there were two routes.ts files, one in the root and one inside the src folder. It would be good to explain this better in the docs and / or in the challenge.
 
 +++++++++++++++++
 # Layer0 Traditional Template
