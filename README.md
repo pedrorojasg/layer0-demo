@@ -15,7 +15,7 @@ I could verify how in the collection pages, the prefetch and deepfetching starte
 
 ## Next steps:
 I would like to implement deepfetching for PDP styling sheets.
-I would like to do more tests to could optimize the configuration.
+I would like to do more tests to could optimize the configuration in detail.
 
 ## Tests results
 * My demo with Layer0: https://www.webpagetest.org/result/210528_BiDcFF_b8e2aef7df123513d841b788320bd207/
@@ -26,6 +26,9 @@ My demo using the power of Layer0 has great performance improvements web vitals 
 There were improvements in Security Score and other important perfomance indicators: First Byte, Start Render, First Contentful Paint, Speed Index and Fully loaded time.
 
 The Largest Contentful Paint decrease from 9.085s to 1.825s (almost 80% time reduction).
+
+## Future improvements
+Implement next steps (above).
 
 ## Feedback to Layer0:
 I had fun with this project, was great understand how Layer 0 works. The docs are self explanatory.
