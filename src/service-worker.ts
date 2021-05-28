@@ -20,6 +20,27 @@ new Prefetcher({
         as: 'image',
         callback: deepFetchPLPHero
       },
+      { /* PDP image */
+        selector: '.primary-image',
+        maxMatches: 1,
+        attribute: 'src',
+        as: 'image',
+        callback: deepFetchPDPImages
+      },
+      { /* PDP image */
+        selector: '.productthumbnail',
+        maxMatches: 1,
+        attribute: 'src',
+        as: 'image',
+        callback: deepFetchPDPImages
+      },
+      { /* PDP image */
+        selector: '.lazyloaded',
+        maxMatches: 1,
+        attribute: 'src',
+        as: 'image',
+        callback: deepFetchPDPImages
+      }
     ]),
   ],
 })
@@ -29,6 +50,7 @@ new Prefetcher({
 
 function deepFetchPDPImages({ $el, el, $ }: DeepFetchCallbackParam) {
   const url = $el.attr('src')
+  prefetch(url, 'image')
 }
 
 function deepFetchPLPHero({ $el, el, $ }: DeepFetchCallbackParam) {

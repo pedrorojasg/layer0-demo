@@ -1,3 +1,21 @@
+Assignment:
+First, I implemented steps 1-11.
+
+Then, I understand how the code works.
+
+Then, I added a prefetch route to '/p/:path*' (routes.ts).
+
+To improve performance, I decided to implement Deepfetching to PDP. So, I added to service-workers.ts the CSS image selectors of PDP page (.primary-image, .productthumbnail, .lazyloaded).
+
+I could verify how in the collection pages, the prefetch and deepfetching started working as expected.
+
+
+Next steps:
+I would like to implement deepfetching for PDP styling sheets.
+I would like to do more tests to could optimize the configuration.
+
+
++++++++++++++++++
 # Layer0 Traditional Template
 
 The repository for the layer0 Traditional template.
