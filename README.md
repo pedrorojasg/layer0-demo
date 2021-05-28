@@ -7,8 +7,6 @@ Then, I added a prefetch route to '/p/:path*' (routes.ts).
 
 To improve performance, I decided to implement Deepfetching to PDP. So, I added to service-workers.ts the CSS image selectors of PDP page (.primary-image, .productthumbnail, .lazyloaded).
 
-Then, after do some tests I decided to remove the ".lazyloaded" selector because those images are personalized recommendations, so its can't be cached.
-
 I could verify how in the collection pages, the prefetch and deepfetching started working as expected.
 
 
@@ -16,6 +14,23 @@ I could verify how in the collection pages, the prefetch and deepfetching starte
 I would like to implement deepfetching for PDP styling sheets.
 I would like to do more tests to could optimize the configuration.
 
+## Tests results
+* My demo with Layer0: https://www.webpagetest.org/result/210528_BiDcFF_b8e2aef7df123513d841b788320bd207/
+* Original site: https://www.webpagetest.org/result/210528_AiDcEF_0471a089cfbfbe5b80a257de8b6e0693/
+
+My demo using the power of Layer0 has great performance improvements web vitals in Largest and Total Blocking Time.
+
+There were improvements in Security Score and other important perfomance indicators: Contentful Paint, First Byte, Start Render, First Contentful Paint, Speed Index and Fully loaded time.
+
+## Feedback to Layer0:
+I had fun with this project, was great understand how Layer 0 works. The docs are self explanatory.
+
+There are some broken links in the original repo README:
+* (https://docs.layer0.co/guides/routingg) => should be (https://docs.layer0.co/guides/routing)
+
+I found the challenge great to gain a first look how Layer0 works and their capabilities.
+
+It confuses me a bit that there were two routes.ts files, one in the root and one inside the src folder. It would be good to explain this better in the docs and / or in the challenge
 
 +++++++++++++++++
 # Layer0 Traditional Template
