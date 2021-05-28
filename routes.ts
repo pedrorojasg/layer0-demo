@@ -3,8 +3,8 @@
 
 import { Router } from '@layer0/core/router'
 
-// const ONE_HOUR = 60 * 60
-// const ONE_DAY = 24 * ONE_HOUR
+const ONE_HOUR = 60 * 60
+const ONE_DAY = 24 * ONE_HOUR
 
 export default new Router()
 
